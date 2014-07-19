@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
+    @*    @Scripts.Render("~/bundles/customvalidation")*@
+        @RenderSection("scripts", required: false)
+
+    <script src="@Url.Content("~/App_Scripts/angular.min.js")" type="text/javascript"></script>
+
+     
+</head>
+<body>
+
+
+
+    @RenderBody()
+
+  
+</body>
+</html>
