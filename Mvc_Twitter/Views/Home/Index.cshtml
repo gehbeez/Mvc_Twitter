@@ -61,8 +61,8 @@
             IEnumerable<TwitterStatus> tweets = ViewBag.Tweets as IEnumerable<TwitterStatus>;
             foreach (var tweet in tweets.Where(x => x.Location != null))
             {
-                <h1>dd=  @tweet.Location </h1>
-                <h1>dd=   </h1>
+                @*<h1>dd=  @tweet.Location </h1>*@
+
                 <div class="tweet">
                     <div class="picture">
                         <img src="@tweet.User.ProfileImageUrl" alt="@tweet.User.ScreenName" title="@tweet.User.ScreenName" />

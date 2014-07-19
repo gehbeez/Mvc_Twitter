@@ -17,10 +17,10 @@ namespace Mvc_Twitter.Controllers
             //TODO Please use your own keys and the secrets!
 
             //TwitterService("consumer key", "consumer secret");
-            var service = new TwitterService("MkBuDyXT25CxRjCJcqT9yx9jB", "M5tieWo81h9YfRfLa7AUKijdlIegUJXBHRpTEZmX7p0fGi0SWQ");
+            var service = new TwitterService("", "");
 
             //AuthenticateWith("Access Token", "AccessTokenSecret");
-            service.AuthenticateWith("17774785-3aYt412pmRfT0sgep90azFeUCPOyt1uSJSQE6HvsW", "O9Zc7Ctg2VQWUemi2iLin8lZqwcW0n97f95vA3OFpDlkz");
+            service.AuthenticateWith("", "");
 
             //ScreenName="screeen name not username", Count=Number of Tweets / www.Twitter.com/mcansozeri. 
             //IEnumerable<TwitterStatus> tweets = service.ListTweetsOnUserTimeline(new ListTweetsOnUserTimelineOptions { ScreenName = txtTwitterName, Count = 5,});
